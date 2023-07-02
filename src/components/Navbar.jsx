@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import logo from "../images/troll-face.png";
 
 const Navbar = () => {
   return (
-    <h1>Navbar here</h1>
-  )
-}
+    <header className="header">
+      <img src={logo} className="header--image" />
+      <h2 className="header--title">Meme Generator</h2>
+      <h4 className="header--project">React Pro</h4>
+    </header>
+  );
+};
 
-export default Navbar
+export default Navbar;
